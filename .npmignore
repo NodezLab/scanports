@@ -2,3 +2,8 @@
 CHANGELOG.md
 CONTRIBUTING.md
 SECURITY.md
+.github/
+scripts/
+.prettierignore
+.prettierrc.json
+test/
