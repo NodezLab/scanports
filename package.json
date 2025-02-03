@@ -1,0 +1,44 @@
+{
+  "name": "scanports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "pr:lint": "prettier --config .prettierrc.json -l \"lib/**/*.js\" \"test/**/*.js\" \"types/**/*.ts\" --ignore-unknown .",
+    "pr:fix": "prettier --config .prettierrc.json --write \"lib/**/*.js\" \"test/**/*.js\" \"types/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NodezLab/scanports"
+  },
+  "keywords": [
+    "ports",
+    "port",
+    "postscanner",
+    "cli-portscanner",
+    "security"
+  ],
+  "author": {
+    "name": "Ivanbyone",
+    "email": "ivanbyone@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Ivanbyone",
+      "email": "ivanbyone@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    
+  },
+  "homepage": "https://github.com/NodezLab/scanports",
+  "engines": {
+    "node": ">=10.x"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2"
+  }
+}
